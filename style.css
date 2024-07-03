@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(196, 191, 184) ;
+}
+
+
+.formsection{
+    display: flex; 
+    height: 100vh;
+    width: 100vw; 
+}
+
+.jp{
+    height: 100%;
+    width: 100%;
+}
+
+.fsection{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 72%;
+
+}
+
+.ck, .ngdiv{
+    height: 100%;
+    width: 50%;
+}
+
+.ck{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jigo{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.kirtan{
+    font-size: 28px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.submitbtn{
+    padding: 5px;
+    font-size: 28px;
+    color: rgb(253, 252, 253);
+    background-color: black;
+}
+
+.meet{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    top: 0%;
+    background-color: antiquewhite;
+    opacity: .3;
+    
+}
+
+.ngdiv {
+    position: relative;
+}
